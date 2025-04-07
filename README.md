@@ -31,7 +31,7 @@ mnist_clf.run(
             condition=RunSteps(num_steps=num_steps_per_image),
             run_cfg=Loihi2SimCfg(select_sub_proc_model=True)) #,select_tag='fixed_pt'))
 
-"""
+```
 gt_label= [3]
 3
 1 (1,) 4 [43. 43. 43. 43. 45. 43. 43. 43. 45. 45.]
@@ -57,7 +57,7 @@ self.current_img_id=29
 Ground truth: [5 0 4 1 9 2 1 3 1 4 3 5 3 6 1 7 2 8 6 9 4 0 9 1 1 2 4 3 2 7]
 Predictions : [4 4 4 4 4 4 4 4 9 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 9 4 4 4 4]
 Accuracy    : 13.333333333333334
-"""
+```
 
 
 
