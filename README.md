@@ -9,7 +9,7 @@ https://r-gaurav.github.io/2024/04/13/Lava-Tutorial-MNIST-Training-on-GPU-and-Ev
 
 ![image](https://github.com/user-attachments/assets/fdd7585d-6466-41b9-8f31-38975d2b3afe)
 
-Starting attempts to convert to accelerate CUDA version, but the documentation so far is incomplete.
+Starting attempts to convert to accelerated CUDA version.
 
 conda activate clip
 cd c:/py/2025/lava
@@ -21,7 +21,7 @@ Pytorch 2.6 with CUDA 12.6 installed, but the modified code seems not to utilize
 Changing select_tag to "floating_pt" or removing it leads to ~ equally distributed results, noise, so it should be fixed_pt.
 My GPU Geforce 750 Ti doesn't support fixed_pt (10xx series support 8 bit INT ), but it is not utilized with float either.
 
-More research is needed. 
+More research is needed - continue with the above mentioned resources.
 
 Check a reference: https://lava-nc.org/lava/lava.magma.core.html#lava.magma.core.run_configs.AbstractLoihiRunCfg
 
