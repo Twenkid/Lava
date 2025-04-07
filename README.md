@@ -21,6 +21,14 @@ Pytorch 2.6 with CUDA 12.6 installed, but the modified code seems not to utilize
 Changing select_tag to "floating_pt" or removing it leads to ~ equally distributed results, noise, so it should be fixed_pt.
 My GPU Geforce 750 Ti doesn't support fixed_pt (10xx series support 8 bit INT ), but it is not utilized with float either.
 
+More research is needed. Next work:
+
+https://lava-nc.org/lava-lib-dl/bootstrap/notebooks/mnist/train.html
+
+https://r-gaurav.github.io/2024/04/13/Lava-Tutorial-MNIST-Training-on-GPU-and-Evaluation-on-Loihi2.html
+
+etc.
+
 mnist_clf.run(
             condition=RunSteps(num_steps=num_steps_per_image),
             run_cfg=Loihi2SimCfg(select_sub_proc_model=True)) #,select_tag='fixed_pt'))
