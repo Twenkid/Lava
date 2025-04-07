@@ -2,7 +2,7 @@
 Lava-nc Neuromorphic library - Study, Exercises, experiments
 
 
-5.4.2025, Next: see https://lava-nc.org/lava-lib-dl/bootstrap/notebooks/mnist/train.html  | 
+5.4.2025, Next: see https://lava-nc.org/lava-lib-dl/bootstrap/notebooks/mnist/train.html  |  
 https://r-gaurav.github.io/2024/04/13/Lava-Tutorial-MNIST-Training-on-GPU-and-Evaluation-on-Loihi2.html
 
 7.4.2025: Run on Win10, Conda:
@@ -21,11 +21,9 @@ Pytorch 2.6 with CUDA 12.6 installed, but the modified code seems not to utilize
 Changing select_tag to "floating_pt" or removing it leads to ~ equally distributed results, noise, so it should be fixed_pt.
 My GPU Geforce 750 Ti doesn't support fixed_pt (10xx series support 8 bit INT ), but it is not utilized with float either.
 
-More research is needed. Next work:
+More research is needed. 
 
-https://lava-nc.org/lava-lib-dl/bootstrap/notebooks/mnist/train.html
-
-https://r-gaurav.github.io/2024/04/13/Lava-Tutorial-MNIST-Training-on-GPU-and-Evaluation-on-Loihi2.html
+Check a reference: https://lava-nc.org/lava/lava.magma.core.html#lava.magma.core.run_configs.AbstractLoihiRunCfg
 
 etc.
 
