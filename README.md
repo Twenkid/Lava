@@ -121,9 +121,28 @@ leaky_integrator.cu
 C:/Users/.../.conda/envs/clip/lib/site-packages/torch/include\c10/util/C++17.h(24): fatal error C1189: #error:  You need C++17 to compile PyTorch
 ```
 
+(...)
+
+A lot of work ...
+
+* A marathon on 12.4.2025 for resolving CUDA, torch, gcc, lava-dl ... compatibility issues which were stopping the process at best during the compilatin of the CUDA kernels with various errors.
+
+**A Successful run of a GPU accelerated MNIST training with WSL2/Win10 with GF 1080.**
+
+![image](https://github.com/user-attachments/assets/a7a1010c-feae-444e-8fc4-d5b6c1d9fa88)
 
 
+On Windows - issues with compilers and torch-CUDA compatibility (likely the compiler settings, nasty dependencies, paths, maybe I would fix them too in the future).
+-allow-unsupported-compiler, ...   
+...
+
+I managed to compile kernels with a stand alone call, but they failed when in the train script compilation.
+
+https://github.com/R-Gaurav/mnist-on-loihi/tree/main
+
+https://github.com/lava-nc/lava-dl?tab=readme-ov-file#installation
 
 
+Next --> going deeper in the libraries, implementations and other trainings.
 
 
