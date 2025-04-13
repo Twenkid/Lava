@@ -146,3 +146,4 @@ https://github.com/lava-nc/lava-dl?tab=readme-ov-file#installation
 Next --> going deeper in the libraries, implementations and other trainings.
 
 
+Tools: When removing large files for WSL and want to save space, compact the image: https://github.com/Twenkid/Deploy/blob/main/wsl.md
