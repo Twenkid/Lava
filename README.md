@@ -147,3 +147,13 @@ Next --> going deeper in the libraries, implementations and other trainings.
 
 
 Tools: When removing large files for WSL and want to save space, compact the image: https://github.com/Twenkid/Deploy/blob/main/wsl.md
+
+...
+
+5.5.2025: ..
+https://brainchip.com/akida-neural-processor-soc/
+https://github.com/Brainchip-Inc/akida_examples/releases
+https://github.com/Brainchip-Inc/akida_examples/blob/main/examples/edge/plot_2_edge_learning_parameters.py
+https://brainchip.com/markets/
+
+MetaTF ...
